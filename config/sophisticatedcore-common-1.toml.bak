@@ -1,0 +1,5 @@
+
+#Common Settings
+[common]
+	enabledItems = ["sophisticatedbackpacks:compacting_upgrade|true", "sophisticatedbackpacks:advanced_restock_upgrade|true", "sophisticatedbackpacks:diamond_backpack|true", "sophisticatedbackpacks:tank_upgrade|true", "sophisticatedbackpacks:auto_smoking_upgrade|true", "sophisticatedbackpacks:stack_upgrade_starter_tier|true", "sophisticatedbackpacks:filter_upgrade|true", "sophisticatedbackpacks:advanced_compacting_upgrade|true", "sophisticatedbackpacks:feeding_upgrade|true", "sophisticatedbackpacks:advanced_pickup_upgrade|true", "sophisticatedbackpacks:smoking_upgrade|true", "sophisticatedbackpacks:everlasting_upgrade|true", "sophisticatedbackpacks:advanced_feeding_upgrade|true", "sophisticatedbackpacks:crafting_upgrade|true", "sophisticatedbackpacks:stack_upgrade_tier_4|true", "sophisticatedbackpacks:stack_upgrade_tier_2|true", "sophisticatedbackpacks:stack_upgrade_tier_3|true", "sophisticatedbackpacks:stack_upgrade_tier_1|true"]
+

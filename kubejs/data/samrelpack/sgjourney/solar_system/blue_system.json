@@ -1,0 +1,11 @@
+{
+    "name": "solar_system.samrelpack.blue_system",
+    "symbols": "sgjourney:terra",
+    "symbol_prefix": 1,
+    "extragalactic_address": {"address": [1, 22, 10, 20, 21, 26, 27], "randomizable": true},
+    "point_of_origin": "sgjourney:kaliem",
+    "dimensions":[
+        "blue_skies:everbright",
+        "blue_skies:everdawn"
+    ]
+}

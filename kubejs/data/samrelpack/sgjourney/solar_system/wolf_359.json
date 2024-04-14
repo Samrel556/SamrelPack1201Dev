@@ -1,0 +1,10 @@
+{
+    "name": "solar_system.samrelpack.wolf_359",
+    "symbols": "sgjourney:terra",
+    "symbol_prefix": 1,
+    "extragalactic_address": {"address": [1, 12, 18, 31, 2, 6, 21], "randomizable": true},
+    "point_of_origin": "sgjourney:eye_of_ra",
+    "dimensions":[
+        "aether:the_aether"
+    ]
+}

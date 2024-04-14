@@ -1,0 +1,12 @@
+[
+    {
+    "mob":"minecraft:warden",
+    "result": "default"
+    },
+    {
+    "hostile": true,
+    "spawner": false,
+    "when": "position",
+    "result": "deny"
+    }
+]

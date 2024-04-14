@@ -1,0 +1,10 @@
+{
+    "name": "solar_system.samrelpack.undergarden",
+    "symbols": "sgjourney:terra",
+    "symbol_prefix": 1,
+    "extragalactic_address": {"address": [1, 19, 20, 29, 18, 32, 17], "randomizable": true},
+    "point_of_origin": "sgjourney:apophis",
+    "dimensions":[
+        "undergarden:undergarden"
+    ]
+}

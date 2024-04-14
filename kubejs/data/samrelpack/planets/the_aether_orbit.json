@@ -1,0 +1,9 @@
+{
+  "dimension": "samrelpack:the_aether_orbit",
+  "gravity": 0.0,
+  "oxygen": false,
+  "solar_power": 32,
+  "solar_system": "samrelpack:wolf_359",
+  "temperature": -270,
+  "tier": 1 
+}
