@@ -149,5 +149,118 @@ ServerEvents.recipes(event => {
 	)
 	.itemOutputs('ad_astra:radio')
 	.duration(20).EUt(30)
+    event.recipes.gtceu.assembler('ad_astra:space_helmet')
+	.itemInputs(
+	    '1x gtceu:tempered_glass',
+	    '5x #forge:plates/steel',
+	    '10x #forge:foils/polytetrafluoroethylene',
+	    '1x #minecraft:wool'
+	)
+	.itemOutputs('ad_astra:space_helmet')
+	.duration(40).EUt(480)
+    event.recipes.gtceu.assembler('ad_astra:space_suit')
+	.itemInputs(
+	    '8x #forge:plates/steel',
+	    '16x #forge:foils/polytetrafluoroethylene',
+	    '2x #minecraft:wool',
+	    '2x ad_astra:gas_tank',
+	    '1x ad_astra:oxygen_gear'
+	)
+	.itemOutputs('ad_astra:space_suit')
+	.duration(40).EUt(480)
+    event.recipes.gtceu.assembler('ad_astra:space_pants')
+	.itemInputs(
+	    '7x #forge:plates/steel',
+	    '14x #forge:foils/polytetrafluoroethylene',
+	    '2x #minecraft:wool'
+	)
+	.itemOutputs('ad_astra:space_pants')
+	.duration(40).EUt(480)
+    event.recipes.gtceu.assembler('ad_astra:space_boots')
+	.itemInputs(
+	    '4x #forge:plates/steel',
+	    '8x #forge:foils/polytetrafluoroethylene',
+	    '2x #minecraft:wool',
+	    '2x #forge:plates/rubber'
+	)
+	.itemOutputs('ad_astra:space_boots')
+	.duration(40).EUt(480)
+    event.recipes.gtceu.assembler('ad_astra:netherite_space_helmet')
+	.itemInputs(
+	    '1x gtceu:laminated_glass',
+	    '3x #forge:plates/ostrum',
+	    '2x #forge:plates/desh',
+	    '10x #forge:foils/polybenzimidazole',
+	    '1x #minecraft:wool'
+	)
+	.itemOutputs('ad_astra:netherite_space_helmet')
+	.duration(160).EUt(7680)
+    event.recipes.gtceu.assembler('ad_astra:netherite_space_suit')
+	.itemInputs(
+	    '4x #forge:plates/ostrum',
+	    '4x #forge:plates/desh',
+	    '16x #forge:foils/polybenzimidazole',
+	    '2x #minecraft:wool',
+	    '4x ad_astra:gas_tank',
+	    '1x ad_astra:oxygen_gear'
+	)
+	.itemOutputs('ad_astra:netherite_space_suit')
+	.duration(160).EUt(7680)
+    event.recipes.gtceu.assembler('ad_astra:netherite_space_pants')
+	.itemInputs(
+	    '5x #forge:plates/ostrum',
+	    '2x #forge:plates/desh',
+	    '14x #forge:foils/polybenzimidazole',
+	    '2x #minecraft:wool'
+	)
+	.itemOutputs('ad_astra:netherite_space_pants')
+	.duration(160).EUt(7680)
+    event.recipes.gtceu.assembler('ad_astra:netherite_space_boots')
+	.itemInputs(
+	    '2x #forge:plates/ostrum',
+	    '2x #forge:plates/desh',
+	    '4x #forge:foils/polybenzimidazole',
+	    '2x #minecraft:wool',
+	    '2x #forge:plates/rubber'
+	)
+	.itemOutputs('ad_astra:netherite_space_boots')
+	.duration(160).EUt(7680)
+    event.recipes.gtceu.assembler('ad_astra:jet_suit_helmet')
+	.itemInputs(
+	    '5x #forge:plates/calorite',
+	    '1x minecraft:tinted_glass',
+	    '10x #forge:foils/polybenzimidazole',
+	    '1x #minecraft:wool'
+	)
+	.itemOutputs('ad_astra:jet_suit_helmet')
+	.duration(320).EUt(30720)
+    event.recipes.gtceu.assembler('ad_astra:jet_suit')
+	.itemInputs(
+	    '8x #forge:plates/calorite',
+	    '16x #forge:foils/polybenzimidazole',
+	    '2x #minecraft:wool',
+	    '8x ad_astra:gas_tank',
+	    '1x ad_astra:oxygen_gear',
+	    '4x ad_astra:etrionic_capacitor',
+	    '2x gtceu:advanced_power_thruster'
+	)
+	.itemOutputs('ad_astra:jet_suit')
+	.duration(320).EUt(30720)
+    event.recipes.gtceu.assembler('ad_astra:jet_suit_pants')
+	.itemInputs(
+	    '7x #forge:plates/calorite',
+	    '14x #forge:foils/polybenzimidazole',
+	    '2x #minecraft:wool'
+	)
+	.itemOutputs('ad_astra:jet_suit_pants')
+	.duration(320).EUt(30720)
+    event.recipes.gtceu.assembler('ad_astra:jet_suit_boots')
+	.itemInputs(
+	    '4x #forge:plates/calorite',
+	    '8x #forge:foils/polybenzimidazole',
+	    '2x #minecraft:wool',
+	    '2x #forge:plates/rubber'
+	)
+	.itemOutputs('ad_astra:jet_suit_boots')
+	.duration(320).EUt(30720)
 })
-
