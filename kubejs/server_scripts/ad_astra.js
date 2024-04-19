@@ -263,4 +263,62 @@ ServerEvents.recipes(event => {
 	)
 	.itemOutputs('ad_astra:jet_suit_boots')
 	.duration(320).EUt(30720)
+	event.shaped('ad_astra:ti_69',[
+		'MPS',
+		'CDC',
+		'PEP'
+	],{
+		M: 'gtceu:lv_emitter',
+		P: '#forge:plates/steel',
+		S: 'gtceu:lv_sensor',
+		C: '#gtceu:circuits/lv',
+		D: 'gtceu:computer_monitor_cover',
+		E: 'ad_astra:etrionic_capacitor'
+	})
+	event.shaped('ad_astra:zip_gun',[
+		'SST',
+		'L  '
+	],{
+		S: 'gtceu:steel_small_fluid_pipe',
+		T: 'gtceu:steel_tiny_fluid_pipe',
+		L: 'ad_astra:large_gas_tank'
+	})
+	event.recipes.gtceu.assembler('ad_astra:etrionic_capacitor')
+	.itemInputs(
+		'2x #forge:plates/steel',
+		'1x gtceu:lapotron_dust',
+		'4x #forge:foils/etrium',
+		'8x #forge:fine_wires/etrium'
+	)
+	.itemOutputs('ad_astra:etrionic_capacitor')
+	.duration(600).EUt(1920)
+	event.shaped('ad_astra:gas_tank',[
+		'PR',
+		'SS',
+		'SS'
+	],{
+		P: 'gtceu:steel_tiny_fluid_pipe',
+		R: 'gtceu:lv_fluid_regulator',
+		S: '#forge:plates/steel'
+	})
+	event.shaped('ad_astra:large_gas_tank',[
+		'PR ',
+		'SSS',
+		'SSS'
+	],{
+		P: 'gtceu:steel_small_fluid_pipe',
+		R: 'gtceu:mv_fluid_regulator',
+		S: '#forge:plates/steel'
+	})
+	event.recipes.gtceu.assembler('ad_astra:oxygen_gear')
+	.itemInputs(
+		'8x #forge:plates/steel',
+		'2x #forge:rotors/steel',
+		'2x gtceu:hv_electric_motor',
+		'2x gtceu:hv_fluid_regulator',
+		'4x gtceu:steel_small_fluid_pipe'
+	)
+	.itemOutputs('ad_astra:oxygen_gear')
+	.duration(40).EUt(480)
+
 })
