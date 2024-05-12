@@ -61,6 +61,12 @@ for (let x in dontWantMats) {
     begone(modName, itemName)
 }
 
+ServerEvents.recipes(event => {
+    event.remove({type: 'ad_astra:nasa_workbench'})
+    event.remove({type: 'ad_astra:refining'})
+    event.remove({type: 'ad_astra:cryo_freezing'})
+})
+
 // Adds Ad Astra materials to Gregtech
 
 // Gregification
