@@ -1,11 +1,10 @@
 // Sophisticated Backpacks Changes
-let modName = 'sophisticatedbackpacks'
-let coreName = 'sophisticatedcore'
 
 // Gregification
 
 ServerEvents.recipes(event => {
-   
+    let modName = 'sophisticatedbackpacks'
+    let coreName = 'sophisticatedcore'
     let upgradeBase = modName + ':upgrade_base'
 
    event.remove({id: modName+':backpack'})

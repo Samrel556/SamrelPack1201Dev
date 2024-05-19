@@ -1,5 +1,4 @@
 // Ad Astra Changes
-let modName = 'ad_astra'
 
 // Fully removing Ad Astra things
 
@@ -52,11 +51,13 @@ let dontWantMats = [
 ]
 
 for (let x in dontWant) {
+    let modName = 'ad_astra'
     let itemName = modName + ':' + dontWant[x]
     begone(modName, itemName)
 }
 
 for (let x in dontWantMats) {
+    let modName = 'ad_astra'
     let itemName = '/' + modName + ':' + dontWantMats[x]
     begone(modName, itemName)
 }
