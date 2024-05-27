@@ -1,0 +1,49 @@
+{
+    "conditions": [
+        {
+            "modid": "aether",
+            "type": "forge:mod_loaded"
+        }
+    ],
+    "entity": "aether:sun_spirit",
+    "variants": [],
+    "name": "entity.aether.sun_spirit",
+    "name_color": "#A8D2F2",
+    "display_nbt": {},
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix",
+        "count": 1
+    },
+    "base_drop": {
+        "item": "minecraft:stick",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.sun_spirit",
+    "fabricator_drops": [
+        {
+            "item": "aether:sun_altar",
+            "count": 10
+        },
+        {
+            "item": "aether:gold_dungeon_key",
+            "count": 10
+        }
+    ],
+    "tier_data": [
+        6,
+        54,
+        354,
+        1254
+    ],
+    "data_per_kill": [
+        1,
+        4,
+        10,
+        18
+    ]
+}

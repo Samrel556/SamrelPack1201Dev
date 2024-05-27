@@ -1,0 +1,49 @@
+{
+    "conditions": [
+        {
+            "modid": "undergarden",
+            "type": "forge:mod_loaded"
+        }
+    ],
+    "entity": "undergarden:dweller",
+    "variants": [],
+    "name": "entity.undergarden.dweller",
+    "name_color": "#38095A",
+    "display_nbt": {},
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix",
+        "count": 1
+    },
+    "base_drop": {
+        "item": "minecraft:stick",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.dweller",
+    "fabricator_drops": [
+        {
+            "item": "undergarden:raw_dweller_meat",
+            "count": 10
+        },
+        {
+            "item": "minecraft:leather",
+            "count": 7
+        }
+    ],
+    "tier_data": [
+        6,
+        54,
+        354,
+        1254
+    ],
+    "data_per_kill": [
+        1,
+        4,
+        10,
+        18
+    ]
+}

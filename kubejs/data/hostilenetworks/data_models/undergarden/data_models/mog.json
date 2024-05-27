@@ -1,0 +1,49 @@
+{
+    "conditions": [
+        {
+            "modid": "undergarden",
+            "type": "forge:mod_loaded"
+        }
+    ],
+    "entity": "undergarden:mog",
+    "variants": [],
+    "name": "entity.undergarden.mog",
+    "name_color": "#1DB8D0",
+    "display_nbt": {},
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix",
+        "count": 1
+    },
+    "base_drop": {
+        "item": "minecraft:stick",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.mog",
+    "fabricator_drops": [
+        {
+            "item": "undergarden:depthrock_pebble",
+            "count": 10
+        },
+        {
+            "item": "undergarden:mogmoss",
+            "count": 5
+        }
+    ],
+    "tier_data": [
+        6,
+        54,
+        354,
+        1254
+    ],
+    "data_per_kill": [
+        1,
+        4,
+        10,
+        18
+    ]
+}

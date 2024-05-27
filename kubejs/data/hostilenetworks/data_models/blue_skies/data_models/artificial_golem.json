@@ -1,0 +1,49 @@
+{
+    "conditions": [
+        {
+            "modid": "blue_skies",
+            "type": "forge:mod_loaded"
+        }
+    ],
+    "entity": "blue_skies:artificial_golem",
+    "variants": [],
+    "name": "entity.blue_skies.artificial_golem",
+    "name_color": "#D8459E",
+    "display_nbt": {},
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix",
+        "count": 1
+    },
+    "base_drop": {
+        "item": "minecraft:stick",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.artificial_golem",
+    "fabricator_drops": [
+        {
+            "item": "blue_skies:glowing_blinding_stone",
+            "count": 10
+        },
+        {
+            "item": "blue_skies:blinding_stone",
+            "count": 10
+        }
+    ],
+    "tier_data": [
+        6,
+        54,
+        354,
+        1254
+    ],
+    "data_per_kill": [
+        1,
+        4,
+        10,
+        18
+    ]
+}

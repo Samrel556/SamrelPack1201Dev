@@ -1,0 +1,45 @@
+{
+    "conditions": [
+        {
+            "modid": "undergarden",
+            "type": "forge:mod_loaded"
+        }
+    ],
+    "entity": "undergarden:forgotten_guardian",
+    "variants": [],
+    "name": "entity.undergarden.forgotten_guardian",
+    "name_color": "#9B51A1",
+    "display_nbt": {},
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix",
+        "count": 1
+    },
+    "base_drop": {
+        "item": "minecraft:stick",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.forgotten_guardian",
+    "fabricator_drops": [
+        {
+            "item": "undergarden:forgotten_nugget",
+            "count": 10
+        }
+    ],
+    "tier_data": [
+        6,
+        54,
+        354,
+        1254
+    ],
+    "data_per_kill": [
+        1,
+        4,
+        10,
+        18
+    ]
+}

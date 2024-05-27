@@ -1,0 +1,45 @@
+{
+    "conditions": [
+        {
+            "modid": "aether",
+            "type": "forge:mod_loaded"
+        }
+    ],
+    "entity": "aether:zephyr",
+    "variants": [],
+    "name": "entity.aether.zephyr",
+    "name_color": "#2579D4",
+    "display_nbt": {},
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix",
+        "count": 1
+    },
+    "base_drop": {
+        "item": "minecraft:stick",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.zephyr",
+    "fabricator_drops": [
+        {
+            "item": "aether:cold_aercloud",
+            "count": 10
+        }
+    ],
+    "tier_data": [
+        6,
+        54,
+        354,
+        1254
+    ],
+    "data_per_kill": [
+        1,
+        4,
+        10,
+        18
+    ]
+}

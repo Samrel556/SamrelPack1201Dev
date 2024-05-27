@@ -1,0 +1,49 @@
+{
+    "conditions": [
+        {
+            "modid": "aether",
+            "type": "forge:mod_loaded"
+        }
+    ],
+    "entity": "aether:sentry",
+    "variants": [],
+    "name": "entity.aether.sentry",
+    "name_color": "#D8A10F",
+    "display_nbt": {},
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix",
+        "count": 1
+    },
+    "base_drop": {
+        "item": "minecraft:stick",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.sentry",
+    "fabricator_drops": [
+        {
+            "item": "aether:carved_stone",
+            "count": 10
+        },
+        {
+            "item": "aether:sentry_stone",
+            "count": 3
+        }
+    ],
+    "tier_data": [
+        6,
+        54,
+        354,
+        1254
+    ],
+    "data_per_kill": [
+        1,
+        4,
+        10,
+        18
+    ]
+}
