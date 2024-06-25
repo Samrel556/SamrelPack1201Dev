@@ -20,7 +20,7 @@
         "count": 1
     },
     "base_drop": {
-        "item": "minecraft:stick",
+        "item": "kubejs:undergarden_prediction",
         "count": 1
     },
     "trivia": "hostilenetworks.trivia.muncher",

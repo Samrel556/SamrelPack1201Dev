@@ -6,7 +6,9 @@
         }
     ],
     "entity": "undergarden:mog",
-    "variants": [],
+    "variants": [
+	"undergarden:smog_mog"
+    ],
     "name": "entity.undergarden.mog",
     "name_color": "#1DB8D0",
     "display_nbt": {},
@@ -20,7 +22,7 @@
         "count": 1
     },
     "base_drop": {
-        "item": "minecraft:stick",
+        "item": "kubejs:undergarden_prediction",
         "count": 1
     },
     "trivia": "hostilenetworks.trivia.mog",
@@ -32,7 +34,11 @@
         {
             "item": "undergarden:mogmoss",
             "count": 5
-        }
+        },
+	{
+	    "item": "undergarden:blue_mogmoss",
+	    "count": 5
+	}
     ],
     "tier_data": [
         6,
