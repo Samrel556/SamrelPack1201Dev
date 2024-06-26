@@ -25,7 +25,7 @@
 
 	[Peripherals.Energy_Detector]
 		#Enable the Energy Detector or not.
-		enableEnergyDetector = true
+		enableEnergyDetector = false
 		#Defines the maximum energy flow of the energy detector.
 		#Range: > 1
 		energyDetectorMaxFlow = 2147483647
