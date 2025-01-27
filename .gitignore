@@ -94,3 +94,11 @@ config/xaero*
 gtceu/
 icon.png
 
+
+config/appleskin-client.toml
+
+config/aether-client.toml
+
+config/aether-common.toml
+
+config/sgjourney-common.toml
