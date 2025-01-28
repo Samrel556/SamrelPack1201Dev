@@ -101,3 +101,5 @@ config/aether-client.toml
 config/aether-common.toml
 
 config/sgjourney-common.toml
+
+screenshots/
