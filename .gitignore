@@ -54,7 +54,6 @@ config/fml.toml
 config/forge-client.toml
 config/framedblocks*
 config/functionalstorage/
-config/gtceu.yaml
 config/hostilenetworks.cfg
 config/incontrol/
 !config/incontrol/spawn.json
