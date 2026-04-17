@@ -172,7 +172,7 @@ ServerEvents.recipes(event => {
 	.itemInputs(
 	    '9x #forge:plates/steel',
 	    '18x #forge:rods/steel',
-	    '9x #forge:concrete')
+	    '9x #forge:concretes')
 	.itemOutputs('ad_astra:launch_pad')
 	.duration(600).EUt(HV)
     event.shaped('ad_astra:oxygen_loader',[

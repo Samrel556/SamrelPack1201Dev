@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
 	    '4x #forge:foils/gold',
 	    '2x #forge:dusts/clay'
 	)
-	.inputFluids(Fluid.of('gtceu:glass'), 144)
+	.inputFluids('gtceu:glass 144')
 	.itemOutputs(modName+'prediction_matrix')
 	.EUt(HV).duration(40)
 
@@ -56,7 +56,7 @@ ServerEvents.recipes(event => {
     event.remove({output: modName+'loot_fabricator'})
     event.recipes.gtceu.assembler('loot_fab')
 	.itemInputs(
-	    '4x #forge:plates/netherite',
+	    '4x #forge:ingots/netherite',
 	    '1x #forge:frames/stainless_steel',
 	    '1x gtceu:computer_monitor_cover',
 	    '1x gtceu:hv_field_generator',

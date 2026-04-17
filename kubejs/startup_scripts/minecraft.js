@@ -1,7 +1,7 @@
 // Ports Minecraft Materials to Gregtech
-
+/*
 GTCEuStartupEvents.registry('gtceu:material', (event) => {
-/*    event.create('netherite')
+    event.create('netherite')
 	.ingot()
 	.components('4x gold', '1x tungsten', '2x platinum')
 	.color(0x4d494d).iconSet(GTMaterialIconSet.METALLIC)
@@ -14,7 +14,7 @@ GTCEuStartupEvents.registry('gtceu:material', (event) => {
 	    GTMaterialFlags.GENERATE_ROTOR,
 	    GTMaterialFlags.GENERATE_SMALL_GEAR,
 	    GTMaterialFlags.GENERATE_DENSE
-	)*/
+	)
     event.create('raw_netherite')
 	.dust()
 	.components('1x tungsten', '2x platinum', '4x chlorine')
@@ -33,4 +33,4 @@ GTCEuStartupEvents.registry('gtceu:material', (event) => {
 	.components('1x tungsten', '2x platinum', '1x sulfur')
 	.color(0x4d4927).iconSet(GTMaterialIconSet.DULL)
 	.flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
-})
+})*/

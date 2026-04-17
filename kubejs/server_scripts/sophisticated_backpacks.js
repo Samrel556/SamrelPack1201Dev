@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
 	'PCP'
     ],{
 	S: '#forge:string',
-	L: '#forge:leather',
+	L: 'minecraft:leather',
 	B: 'gtceu:wood_crate',
 	P: '#forge:plates/treated_wood',
 	C: '#gtceu:circuits/lv'

@@ -1,6 +1,6 @@
 // Minecraft Changes
 
-
+/*
 // Gregification
 ServerEvents.recipes(event => {
     let EV = GTValues.VA[GTValues.EV]
@@ -24,4 +24,4 @@ ServerEvents.recipes(event => {
 	.itemInputs('gtceu:unrefined_netherite_dust', '4x #forge:dusts/gold')
 	.itemOutputs('gtceu:netherite_dust')
 	.EUt(IV).duration(250)
-})
+})*/
