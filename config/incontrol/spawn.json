@@ -7,6 +7,7 @@
     "hostile": true,
     "spawner": false,
     "when": "position",
+    "dimension": "minecraft:overworld",
     "result": "deny"
     }
 ]
