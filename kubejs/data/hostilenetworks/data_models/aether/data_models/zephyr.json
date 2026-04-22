@@ -10,7 +10,7 @@
     "name": "entity.aether.zephyr",
     "name_color": "#2579D4",
     "display_nbt": {},
-    "gui_scale": 1,
+    "gui_scale": 0.5,
     "gui_x_offset": 0,
     "gui_y_offset": 0,
     "gui_z_offset": 0,

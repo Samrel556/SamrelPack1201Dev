@@ -10,7 +10,7 @@
     "name": "entity.aether.aechor_plant",
     "name_color": "#714DCC",
     "display_nbt": {},
-    "gui_scale": 1,
+    "gui_scale": 2,
     "gui_x_offset": 0,
     "gui_y_offset": 0,
     "gui_z_offset": 0,

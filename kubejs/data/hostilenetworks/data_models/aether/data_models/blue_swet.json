@@ -10,7 +10,7 @@
     "name": "entity.aether.blue_swet",
     "name_color": "#CCC04E",
     "display_nbt": {},
-    "gui_scale": 1,
+    "gui_scale": 1.5,
     "gui_x_offset": 0,
     "gui_y_offset": 0,
     "gui_z_offset": 0,

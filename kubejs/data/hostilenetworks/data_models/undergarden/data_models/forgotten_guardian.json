@@ -10,7 +10,7 @@
     "name": "entity.undergarden.forgotten_guardian",
     "name_color": "#9B51A1",
     "display_nbt": {},
-    "gui_scale": 1,
+    "gui_scale": 0.75,
     "gui_x_offset": 0,
     "gui_y_offset": 0,
     "gui_z_offset": 0,
