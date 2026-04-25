@@ -1,0 +1,69 @@
+{
+    "type": "gateways:endless",
+    "size": "medium",
+    "color": "black",
+    "base_wave": {
+	"entities": [{
+	    "type": "gateways:standard",
+	    "entity": "minecraft:enderman",
+	    "count": 3
+	}],              
+	"rewards": [{
+            "type": "gateways:loot_table",
+	    "loot_table": "samrelpack:apothic_gems",
+	    "rolls": 1,
+	    "desc": "Apothic Gems"
+	}],
+	"max_wave_time": 2400,
+	"setup_time": 200
+    },
+    "modifiers": [{
+	"application_mode": {
+	    "type": "gateways:only_on_every_n_waves",
+	    "waves": 3
+	},
+	"entities": [{
+	    "type": "apotheosis:boss",
+	    "boss": "apotheosis:the_end/enderman"
+	}],
+	"rewards": [{
+	    "type": "apotheosis:affix",
+	    "rarity": "apotheosis:epic"
+	}]
+    },
+    {
+	"application_mode": {
+	    "type": "gateways:after_every_n_waves",
+	    "waves": 3,
+	    "max": 10
+	},
+	"modifiers": [{
+	    "attribute": "generic.max_health",
+	    "operation": "MULTIPLY_TOTAL",
+	    "value": 0.33
+	},
+	{
+	    "attribute": "generic.armor",
+	    "operation": "ADDITION",
+	    "value": 2.5
+	},
+	{
+	    "attribute": "generic.attack_damage",
+	    "operation": "MULTIPLY_TOTAL",
+	    "value": 0.33
+	},
+	{
+	    "attribute": "generic.knockback_resistance",
+	    "operation": "ADDITION",
+	    "value": 0.05
+	},
+	{
+	    "attribute": "generic.movement_speed",
+	    "operation": "MULTIPLY_TOTAL",
+	    "value": 0.05
+	}],
+	"max_wave_time": -200,
+	"setup_time": -10
+    }
+    ]
+}

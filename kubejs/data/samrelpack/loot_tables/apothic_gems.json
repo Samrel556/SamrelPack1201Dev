@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "value": 2,
+        "type": "minecraft:constant"
+      },
+      "entries": [
+        {
+          "type": "apotheosis:random_gem",
+		  "weight": 80,
+          "quality": 5
+        }
+      ]
+    }
+  ]
+}
