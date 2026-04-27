@@ -1,7 +1,7 @@
 {
     "type": "gateways:endless",
     "size": "medium",
-    "color": "black",
+    "color": "#151515",
     "base_wave": {
 	"entities": [{
 	    "type": "gateways:standard",

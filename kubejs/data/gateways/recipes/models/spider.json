@@ -1,0 +1,27 @@
+{
+    "type": "gateways:gate_recipe",
+    "group": "gateways",
+    "pattern": [
+	"MDM",
+	"PEP",
+	"MDM"
+    ],
+    "key": {
+	"M": {
+	    "item": "hostilenetworks:prediction_matrix"
+	},
+	"P": {
+	    "item": "hostilenetworks:overworld_prediction"
+	},
+	"D": {
+	    "item": "minecraft:spider_eye"
+	},
+	"E": {
+	    "item": "minecraft:ender_pearl"
+	}
+    },
+    "result": {
+	"item": "gateways:gate_pearl"
+    },
+    "gateway": "gateways:models/spider"
+}

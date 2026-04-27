@@ -1,0 +1,27 @@
+{
+    "type": "gateways:gate_recipe",
+    "group": "gateways",
+    "pattern": [
+	"TGT",
+	"PEP",
+	"TGT"
+    ],
+    "key": {
+	"T": {
+	    "item": "apotheosis:uncommon_material"
+	},
+	"P": {
+	    "item": "hostilenetworks:overworld_prediction"
+	},
+	"G": {
+	    "item": "apotheosis:gem_dust"
+	},
+	"E": {
+	    "item": "minecraft:ender_eye"
+	}
+    },
+    "result": {
+	"item": "gateways:gate_pearl"
+    },
+    "gateway": "gateways:apothic/overworld"
+}
